@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Checkpoints (二进制，太大)
+data/checkpoint/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual env
+venv/
+.venv/
+
+# Env files
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
