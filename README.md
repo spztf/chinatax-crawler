@@ -2,10 +2,13 @@
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![English](https://img.shields.io/badge/README-English-blue.svg)](README_EN.md)
 
 **国家税务总局「税案通报」栏目爬虫**
 
 从 [国家税务总局网站](https://www.chinatax.gov.cn/chinatax/manuscriptList/c102025) 的「税案通报」栏目自动抓取税务案例数据，输出结构化 JSON / JSONL / CSV 数据集。
+
+> 📖 [English version →](README_EN.md)
 
 ## 功能特性
 
@@ -24,7 +27,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/user/chinatax-crawler.git
+git clone https://github.com/spztf/chinatax-crawler.git
 cd chinatax-crawler
 
 # 创建虚拟环境（推荐）
@@ -126,6 +129,7 @@ chinatax-crawler/
 ├── tests/               # 测试
 ├── pyproject.toml       # 项目元数据
 ├── README.md
+├── README_EN.md
 ├── LICENSE
 └── .gitignore
 ```
